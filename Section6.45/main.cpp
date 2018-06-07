@@ -5,12 +5,20 @@
  ***********************************
  */
 #include <iostream>
+using namespace std;
 
-int main() {
-    std::cout << "Please enter the length and width separated by a space: ";
-    int length, width;
-    std:: cin >> length >> width;
+int main()
+{
+    int room_width {0};
+    cout << "Enter the width of the room: ";
+    cin >> room_width;
 
-    std::cout << "The area of the room is " << length * width << " square feet." << std::endl;
+    int room_length {0};
+    cout << "Enter the length of the room: ";
+    cin >> room_length;
+
+    int area = room_length * room_width;
+
+    std::cout << "The area of the room is " << area << " square feet." << std::endl;
     return 0;
 }
