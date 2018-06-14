@@ -38,6 +38,7 @@ int main()
     cout << "Elements in vector #1" << endl;
     cout << vector1.at(0) << endl;
     cout << vector1.at(1) << endl;
+    cout << "The size of vector #1 is " << vector1.size() << endl;
     cout << "---------------------" << endl;
 
     vector <int> vector2 {};
@@ -48,6 +49,7 @@ int main()
     cout << "Elements in vector #2" << endl;
     cout << vector2.at(0) << endl;
     cout << vector2.at(1) << endl;
+    cout << "The size of vector #2 is " << vector1.size() << endl;
     cout << "---------------------" << endl;
 
     vector <vector<int>> vector_2d {};
@@ -69,6 +71,7 @@ int main()
     cout << "Elements in vector #1" << endl;
     cout << vector1.at(0) << endl;
     cout << vector1.at(1) << endl;
+    cout << "The size of vector #1 is " << vector1.size() << endl;
     cout << "---------------------" << endl;
 
     cout << "Elements in 2D Vector" << endl;
